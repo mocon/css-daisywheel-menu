@@ -26,6 +26,7 @@
 		</header><!-- /header -->
 		<section id="main">
 			<div class="circle">
+				<div class="inner-circle"></div>
 				<div class="petal a-1">
 					<div class="petal-circle">
 						<div class="buttons a-1">
