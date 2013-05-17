@@ -1,0 +1,218 @@
+body {
+	background-color: #122430;
+	font-family: 'Open Sans', sans-serif;
+	color: #fff;
+}
+
+.circle {
+	position: relative;
+	margin: 4em auto 0;
+	height: 40em;
+	width: 40em;
+	border-radius: 20em;
+	background-color: #1d303e;
+}
+
+.petal {
+	height: 10em;
+	width: 10em;
+	background-color: #3a5b6e;
+	border-top-left-radius: 0;
+	border-top-right-radius: 5em;
+	border-bottom-right-radius: 5em;
+	border-bottom-left-radius: 5em;
+}
+
+.petal-circle {
+	position: absolute;
+	left: -0.5em;
+	top: -0.5em;
+	height: 9em;
+	width: 9em;
+	border-radius: 4.5em;
+	/*background-color: #1d303e;*/
+	margin: 1em;
+}
+
+.button-text {
+	color: #fff;
+	font-size: 1.5em;
+	text-align: center;
+	padding-top: .25em;
+}
+
+.button-yellow {
+	position: absolute;
+	top: 0.5em;
+	left: 3em;
+	width: 3em;
+	height: 3em;
+	background: #dbbf00;
+	border-radius: 1.5em;
+}
+
+.button-red {
+	position: absolute;
+	top: 3em;
+	left: 5.5em;
+	width: 3em;
+	height: 3em;
+	background: #b41512;
+	border-radius: 1.5em;
+}
+
+.button-green {
+	position: absolute;
+	top: 5.5em;
+	left: 3em;
+	width: 3em;
+	height: 3em;
+	background: #699600;
+	border-radius: 1.5em;
+}
+
+.button-blue {
+	position: absolute;
+	top: 3em;
+	left: 0.5em;
+	width: 3em;
+	height: 3em;
+	background: #103f8c;
+	border-radius: 1.5em;
+}
+
+.petal.a-1 {
+	position: absolute !important;
+	left: 15em;
+	top: 2em;
+	transform:rotate(45deg);
+	-ms-transform:rotate(45deg); /* IE 9 */
+	-webkit-transform:rotate(45deg); /* Safari and Chrome */
+}
+
+.buttons.a-1 {
+	height: 9em;
+	width: 9em;
+	transform:rotate(-45deg);
+	-ms-transform:rotate(-45deg); /* IE 9 */
+	-webkit-transform:rotate(-45deg); /* Safari and Chrome */
+}
+
+.petal.a-2 {
+	position: absolute !important;
+	left: 24em;
+	top: 6em;
+	transform:rotate(90deg);
+	-ms-transform:rotate(90deg); /* IE 9 */
+	-webkit-transform:rotate(90deg); /* Safari and Chrome */
+}
+
+.buttons.a-2 {
+	height: 9em;
+	width: 9em;
+	transform:rotate(-90deg);
+	-ms-transform:rotate(-90deg); /* IE 9 */
+	-webkit-transform:rotate(-90deg); /* Safari and Chrome */
+}
+
+.petal.a-3 {
+	position: absolute !important;
+	left: 28em;
+	top: 15em;
+	transform:rotate(135deg);
+	-ms-transform:rotate(135deg); /* IE 9 */
+	-webkit-transform:rotate(135deg); /* Safari and Chrome */
+}
+
+.buttons.a-3 {
+	height: 9em;
+	width: 9em;
+	transform:rotate(225deg);
+	-ms-transform:rotate(225deg); /* IE 9 */
+	-webkit-transform:rotate(225deg); /* Safari and Chrome */
+}
+
+.petal.a-4 {
+	position: absolute !important;
+	left: 24em;
+	top: 24em;
+	transform:rotate(180deg);
+	-ms-transform:rotate(180deg); /* IE 9 */
+	-webkit-transform:rotate(180deg); /* Safari and Chrome */
+}
+
+.buttons.a-4 {
+	height: 9em;
+	width: 9em;
+	transform:rotate(180deg);
+	-ms-transform:rotate(180deg); /* IE 9 */
+	-webkit-transform:rotate(180deg); /* Safari and Chrome */
+}
+
+.petal.a-5 {
+	position: absolute !important;
+	left: 15em;
+	top: 28em;
+	transform:rotate(225deg);
+	-ms-transform:rotate(225deg); /* IE 9 */
+	-webkit-transform:rotate(225deg); /* Safari and Chrome */
+}
+
+.buttons.a-5 {
+	height: 9em;
+	width: 9em;
+	transform:rotate(135deg);
+	-ms-transform:rotate(135deg); /* IE 9 */
+	-webkit-transform:rotate(135deg); /* Safari and Chrome */
+}
+
+.petal.a-6 {
+	position: absolute !important;
+	left: 6em;
+	top: 24em;
+	transform:rotate(270deg);
+	-ms-transform:rotate(270deg); /* IE 9 */
+	-webkit-transform:rotate(270deg); /* Safari and Chrome */
+}
+
+.buttons.a-6 {
+	height: 9em;
+	width: 9em;
+	transform:rotate(90deg);
+	-ms-transform:rotate(90deg); /* IE 9 */
+	-webkit-transform:rotate(90deg); /* Safari and Chrome */
+}
+
+.petal.a-7 {
+	position: absolute !important;
+	left: 2em;
+	top: 15em;
+	transform:rotate(315deg);
+	-ms-transform:rotate(315deg); /* IE 9 */
+	-webkit-transform:rotate(315deg); /* Safari and Chrome */
+}
+
+.buttons.a-7 {
+	height: 9em;
+	width: 9em;
+	transform:rotate(45deg);
+	-ms-transform:rotate(45deg); /* IE 9 */
+	-webkit-transform:rotate(45deg); /* Safari and Chrome */
+}
+
+.petal.a-8 {
+	position: absolute !important;
+	left: 6em;
+	top: 6em;
+	transform:rotate(0deg);
+	-ms-transform:rotate(0deg); /* IE 9 */
+	-webkit-transform:rotate(0deg); /* Safari and Chrome */
+}
+
+.buttons.a-8 {
+	height: 9em;
+	width: 9em;
+	transform:rotate(0deg);
+	-ms-transform:rotate(0deg); /* IE 9 */
+	-webkit-transform:rotate(0deg); /* Safari and Chrome */
+}
